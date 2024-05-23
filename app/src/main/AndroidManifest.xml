@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ToggleButton"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.ParallaxEffectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.DOMParser.DOMParserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SAX_Parser.SAXParserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Auth.PrefsActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name=".Activities.Auth.SharedPreferenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Services.NextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Services.ServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Menus.ContextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Menus.PopupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.StartResultSecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.StartResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LifeCycleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ViewStubActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ImageSwitcherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ImageSliderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ToggleButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SearchViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.TabLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.AlertDialogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.VerticalScrollViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.HorizontalScrollViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.DatePickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SeekBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ProgressBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RatingBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.AutoCompleteTextViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CheckBoxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Activities.Services.MyService"
+            android:enabled="true" />
+    </application>
+
+</manifest>
